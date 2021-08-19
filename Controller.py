@@ -1,10 +1,13 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 import CUtils
 import numpy as np
 import math
 import os
-import queue
+try:
+    import queue
+except:
+    import Queue as queue
 import time
 
 class Controller(object):
